@@ -1,0 +1,179 @@
+body {
+  background-color: #EC7C25;
+  font-family: Roboto, sans-serif;
+  padding-top: 50px;
+  color: #552411;
+}
+
+img {
+  border-radius: 40px;
+  padding: 5px;
+}
+
+hr {
+  color: #853212;
+  width: 95%;
+  margin: 10px auto 10px auto;
+}
+
+input {
+  width: 90%;
+  margin-left: 3px;
+  border-radius: 5px;
+  border-style: none;
+  background-color:  #ebc9b0;
+  height: 25px;
+  padding: 5px;
+  position: relative;
+}
+
+button {
+  background-color: #BE4E24;
+  border-radius: 5px;
+  border-style: none;
+  height: 25px;
+  padding: 5px;
+  color: azure;
+  margin: 10px;
+  cursor: pointer;
+}
+
+a {
+  margin-left: auto;
+}
+
+.linkComponent {
+  text-decoration: 'none';
+}
+
+.postClick {
+  cursor: pointer;
+}
+
+.close {
+  margin: 10px;
+  padding-bottom: 50px; 
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #EC7C25;
+}
+
+form {
+  width: 100%;
+}
+
+.app {
+  background-color: #ebc9b0;
+  padding: 8px; 
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+}
+
+.name {
+  font-size: 16px;
+  color: #BE4E24;
+}
+
+.label {
+  font-size: 14px;
+  color: #853212;
+  padding-top: 5px;
+}
+
+.avatar {
+  width: 10%;
+}
+
+.avatarComment {
+  width: 5%;
+}
+
+.postsPage {
+  background-color:  #ebc9b0;;
+  width: 95%;
+  margin: auto;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.postWrap {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 10px 0;
+  background-color: azure;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.formWrap {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 10px 0;
+  background-color: azure;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  width: 95%;
+  margin: auto;
+}
+
+.nameWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.infoUser {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.lineComment {
+  width: 100%;
+}
+
+.textPost {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 15px;
+}
+
+.likeWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+
+.material-icons {
+  font-size: 14px;
+}
+
+.commentWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.delete {
+  background-color:#df0c0c;
+}
+
+.footerWrap {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
